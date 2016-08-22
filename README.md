@@ -1,5 +1,5 @@
 *MoScript*
-----------
+--------
 
 Think mogically.
 
