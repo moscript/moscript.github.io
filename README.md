@@ -5,4 +5,4 @@ Think mogically.
 
 ***Projects:***
 
- - [Mogic Highlighter](moscript.github.io/mogic-highlighter)
+ - [Mogic Highlighter](https://moscript.github.io/mogic-highlighter)
