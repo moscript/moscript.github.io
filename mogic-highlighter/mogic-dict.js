@@ -1,1 +1,1 @@
-var mogic = ["a", "b"];
+var mogic = ["蛤", "蟆", "江"];
