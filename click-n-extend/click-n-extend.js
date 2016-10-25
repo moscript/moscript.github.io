@@ -39,7 +39,7 @@ function display(e) {
         n[i].style.opacity = 0;
       };
       break;
-    case 84:
+    case 101:
       for (i = 0; i < n.length; i++) {
         n[i].style.opacity = 1;
       };
