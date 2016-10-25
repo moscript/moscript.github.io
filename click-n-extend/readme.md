@@ -10,4 +10,4 @@ Just like its name, Click 'n Extend helps devout toad fans to take out one secon
 
 To use it on your mogical website, just include this script.
 
-    <script src="https://moscript.github.io/click-n-extend/click-n-extend.js"
+    <script src="https://moscript.github.io/click-n-extend/click-n-extend.js"></script>
