@@ -43,7 +43,7 @@ function display(e) {
       for (i = 0; i < n.length; i++) {
         n[i].style.opacity = 1;
       };
-      alert("You had prolonged " + n.length + "s for the Elder.");
+      alert("You have prolonged " + n.length + "s for the Elder.");
       break;
   }
   return n.length;
