@@ -4,7 +4,7 @@ var loadCSS = document.createElement("link");
 setAttributes(loadCSS, {
   "rel": "stylesheet",
   "type": "text/css",
-  "href": "click-n-extend.css"
+  "href": "https://moscript.github.io/click-n-extend/click-n-extend.css"
 })
 document.getElementsByTagName("head")[0].appendChild(loadCSS);
 
