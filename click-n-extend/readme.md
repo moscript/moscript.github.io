@@ -1,6 +1,6 @@
 Click 'n Extend
 --------
-Just like its name, Click 'n Extend helps devout toad fans to take out one second out of their lives and give it to the Elder toad by every single click on the webpage.
+Just like its name, *Click 'n Extend* helps devout toad fans to take out one second out of their lives and give it to the Elder toad by every single click on the webpage.
 
 [Demo](https://moscript.github.io/click-n-extend/index.html)
 
