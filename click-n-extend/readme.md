@@ -4,7 +4,7 @@ Just like its name, *Click 'n Extend* helps devout toad fans to take out one sec
 
 [Demo](https://moscript.github.io/click-n-extend/index.html)
 
-*Note: Press E to show the seconds you've prolonged, and 5 to hide them.*
+*Note: Press E to show the seconds you've prolonged, T to display the actual number, and 5 to hide them.*
 
 ***Usage:***
 
