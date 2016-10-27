@@ -1,3 +1,7 @@
+/*
+Written By MoScript.
+Github: https://github.com/moscript
+*/
 var n = 0;
 
 var loadCSS = document.createElement("link");
@@ -39,7 +43,7 @@ function display(e) {
         n[i].style.opacity = 0;
       };
       break;
-    case 101:
+    case 84:
       for (i = 0; i < n.length; i++) {
         n[i].style.opacity = 1;
       };
