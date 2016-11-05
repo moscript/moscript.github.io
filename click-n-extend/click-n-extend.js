@@ -6,7 +6,7 @@ var n = 0;
 
 var sheet = document.createElement('style');
 sheet.innerHTML = ".seconds{position:absolute;margin-left:-11.2px;z-index:19260817;opacity:0;animation:ascend 1.3s;transition:opacity 1s ease-in-out;pointer-events:none;user-drag:none;user-select:none}@keyframes ascend{0%{opacity:0;margin-top:-8.9px}70%{opacity:1}100%{opacity:0;margin-top:-26px}}";
-document.body.appendChild(sheet);
+document.head.appendChild(sheet);
 
 function setAttributes(el, attrs) {
   for (var key in attrs) {
