@@ -352,7 +352,7 @@ a {
   z-index: -5 !important; }
 
 body {
-  background-image: url(assets/images/bg.jpg);
+  background-image: url(images/bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: 0 bottom; }
