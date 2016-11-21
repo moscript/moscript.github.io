@@ -1,5 +1,5 @@
 /*
-Written By MoScript.
+MoScript 2016.
 Github: https://github.com/moscript
 */
 var n = 0;
@@ -26,27 +26,21 @@ function extend(event) {
   document.body.appendChild(onesec);
 }
 
-function display(e) {
-  var n = document.getElementsByClassName("seconds");
-  switch (e.keyCode) {
-    case 69:
-      for (i = 0; i < n.length; i++) {
-        n[i].style.opacity = 1;
+var seconds = document.getElementsByClassName("seconds");
+var 续命 = {
+  "知多少": function () {
+      for (i = 0; i < seconds.length; i++) {
+        seconds[i].style.opacity = 1;
       };
-      break;
-    case 53:
-      for (i = 0; i < n.length; i++) {
-        n[i].style.opacity = 0;
-      };
-      break;
-    case 84:
-      for (i = 0; i < n.length; i++) {
-        n[i].style.opacity = 1;
-      };
-      alert("You have prolonged " + n.length + "s for the Elder.");
-      break;
+      return seconds.length;
+      console.info("You have prolonged " + seconds.length + "s for the Elder.");
   }
-  return n.length;
+  "隐藏": function () {
+      for (i = 0; i < seconds.length; i++) {
+        seconds[i].style.opacity = 0;
+      };
+      return seconds.length;
+  }
 }
 
 document.addEventListener("keydown", display, false);
