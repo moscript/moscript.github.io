@@ -43,5 +43,5 @@ var 续命 = {
   }
 }
 
-document.addEventListener("keydown", 续命.知多少, false);
+//document.addEventListener("keydown", 续命.知多少, false);
 document.addEventListener("mousedown", extend);
