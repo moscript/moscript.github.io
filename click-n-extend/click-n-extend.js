@@ -34,8 +34,8 @@ var 续命 = {
       };
       return seconds.length;
       console.info("You have prolonged " + seconds.length + "s for the Elder.");
-  }
-  "隐藏": function () {
+  },
+  "闷声": function () {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 0;
       };
