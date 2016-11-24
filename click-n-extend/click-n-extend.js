@@ -28,19 +28,19 @@ function extend(event) {
 
 var seconds = document.getElementsByClassName("seconds");
 var 续命 = {
-  "知多少": function () {
+  "知多少": (function () {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 1;
       };
       return seconds.length;
-      console.info("You have prolonged " + seconds.length + "s for the Elder.");
-  },
-  "闷声": function () {
+      console.info("%c你为长者续了 " + seconds.length + "s。", "color");
+  }) (),
+  "闷声": (function () {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 0;
       };
       return seconds.length;
-  }
+  }) ()
 }
 
 //document.addEventListener("keydown", 续命.知多少, false);
