@@ -1,1 +1,1 @@
-*Currently abandoned due to its naive usage*
+*Currently abandoned due to its naive usage.*
