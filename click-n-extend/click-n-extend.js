@@ -9,37 +9,37 @@ sheet.innerHTML = ".seconds{position:absolute;margin-left:-11.2px;z-index:192608
 document.head.appendChild(sheet);
 
 function setAttributes(el, attrs) {
-  for (var key in attrs) {
-    el.setAttribute(key, attrs[key]);
-  }
+   for (var key in attrs) {
+      el.setAttribute(key, attrs[key]);
+   }
 }
 
 function extend(event) {
-  n++;
-  var onesec = document.createElement("img");
-  setAttributes(onesec, {
-    "id": "sec" + n,
-    "class": "seconds",
-    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAALCAMAAACj4OZyAAAAXVBMVEUAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAAHHvfOAAAAHnRSTlMA9uD83ZruPemHWjQX1NLCsoJoYCUNBPfFrKd2HxFL21rZAAAAa0lEQVQY023PiQqAIAwGYHVmdp/avfd/zMzAIxsI7mOMf8RVz3nnu8BHyiKoZPF+Pp5jFrpqhRBT6mN7XjsjAIAIUDo/Mm2H6IJAqfea4Vr97Cd6klCkXivzxJOTRTmbbZ4HGQZu7L0DN1Xe5zYEOudtMvoAAAAASUVORK5CYII=",
-    "style": "left:" + event.pageX + "px" + ";top:" + event.pageY + "px" + ";"
-  });
-  document.body.appendChild(onesec);
+   n++;
+   var onesec = document.createElement("img");
+   setAttributes(onesec, {
+      "id": "sec" + n,
+      "class": "seconds",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAALCAMAAACj4OZyAAAAXVBMVEUAAAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAAHHvfOAAAAHnRSTlMA9uD83ZruPemHWjQX1NLCsoJoYCUNBPfFrKd2HxFL21rZAAAAa0lEQVQY023PiQqAIAwGYHVmdp/avfd/zMzAIxsI7mOMf8RVz3nnu8BHyiKoZPF+Pp5jFrpqhRBT6mN7XjsjAIAIUDo/Mm2H6IJAqfea4Vr97Cd6klCkXivzxJOTRTmbbZ4HGQZu7L0DN1Xe5zYEOudtMvoAAAAASUVORK5CYII=",
+      "style": "left:" + event.pageX + "px" + ";top:" + event.pageY + "px" + ";"
+   });
+   document.body.appendChild(onesec);
 }
 
 var seconds = document.getElementsByClassName("seconds");
 var 续命 = {
-  "知多少": function () {
+   get 知多少() {
       for (i = 0; i < seconds.length; i++) {
-        seconds[i].style.opacity = 1;
+         seconds[i].style.opacity = 1;
       };
       return "你为长者续了" + seconds.length + "s";
-  },
-  "闷声": function () {
+   },
+   get 闷声() {
       for (i = 0; i < seconds.length; i++) {
-        seconds[i].style.opacity = 0;
+         seconds[i].style.opacity = 0;
       };
       return "闷声大续命，这是坠吼的！";
-  }
+   }
 }
 console.info("%c温馨提示：输入%c 续命.知多少() %c来显示在当前页面中所续的秒数，输入%c 续命.闷声() %c来隐藏所续秒数。", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e");
 
