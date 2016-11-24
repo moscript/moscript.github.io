@@ -35,14 +35,16 @@ var 续命 = {
       if (seconds.length > 0) {
         console.info("%c你为长者续了%c" + seconds.length + "s", "color:#9e9e9e", "color:#f44336");
       };
+      return seconds.length;
   }) (),
   "闷声": (function () {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 0;
       };
+      return seconds.length;
   }) ()
 }
-console.info("%c温馨提示：输入%c“续命.知多少”%c来显示在当前页面所续的秒数，输入%c“续命.闷声”%c来隐藏所续秒数。", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e");
+console.info("%c温馨提示：输入%c 续命.知多少 %c来显示在当前页面中所续的秒数，输入%c 续命.闷声 %c来隐藏所续秒数。", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e");
 
 //document.addEventListener("keydown", 续命.知多少, false);
 document.addEventListener("mousedown", extend);
