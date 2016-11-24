@@ -32,13 +32,13 @@ var 续命 = {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 1;
       };
-      return console.info("%c你为长者续了%c" + seconds.length + "s", "color:#9e9e9e", "color:#f44336");
+      return "你为长者续了" + seconds.length + "s";
   },
   "闷声": function () {
       for (i = 0; i < seconds.length; i++) {
         seconds[i].style.opacity = 0;
       };
-      return console.info("%c闷声大续命，这是坠吼的！", "color:#9e9e9e");
+      return "闷声大续命，这是坠吼的！";
   }
 }
 console.info("%c温馨提示：输入%c 续命.知多少() %c来显示在当前页面中所续的秒数，输入%c 续命.闷声() %c来隐藏所续秒数。", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e");
