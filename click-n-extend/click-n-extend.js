@@ -44,4 +44,5 @@ var 续命 = {
 console.info("%c微小的提示：输入%c 续命.知多少 %c来显示在当前页面中所续的秒数，输入%c 续命.闷声 %c来隐藏所续秒数。", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e", "color:#2196f3", "color:#9e9e9e");
 
 //document.addEventListener("keydown", 续命.知多少, false);
+document.addEventListener("touchstart", extend);
 document.addEventListener("mousedown", extend);
