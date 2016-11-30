@@ -1,0 +1,177 @@
+{
+  "pages": [
+    {
+      "title": "第一部分（选泽题）",
+      "questions": [
+        {
+          "type": "single-answer",
+          "statement": "“还是要按照香港的，按照基本法、按照  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  ，去产生。”",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "我们的决定权",
+            "选举法",
+            "规划法",
+            "宪法"
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "“我讲的意思不是我是  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  他，当下任。”",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "钦定",
+            "内定",
+            "硬点",
+            "钦点"
+          ],
+          "solution": 3,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "懂了没有啊？  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  ？",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "识唔识嘚",
+            "明白我这意思吗",
+            "识唔识嘚噶",
+            "蛤"
+          ],
+          "solution": 0,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "你们呐，不要想…喜欢  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  ！",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "搞个大新闻",
+            "弄个大新闻",
+            "弄一个大新闻",
+            "弄那么个大新闻"
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "“你们给我搞的这本东西...excited!” - 这本东西的名字是？",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "《他改变了中国》",
+            "《江泽民文选》",
+            "《历史的印迹》",
+            "《世界著名歌曲45首》"
+          ],
+          "solution": 2,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "“西方的哪一个国家我没去过？”",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "匈牙利",
+            "比利时",
+            "意大利",
+            "西班牙"
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "“现在你们好像  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  ...什么都搞”",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "医药、食品",
+            "房产、股票",
+            "微电子、机械",
+            "生物、化工"
+          ],
+          "solution": 0,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "“在我们祝酒之前，我去弹一曲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  这个吉他，请州长夫人演唱！”",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "\"Hello Hawaii\"",
+            "\"Aloha 'Oe\"",
+            "\"Farewell Hawaii\"",
+            "\"One day when we were young\""
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "《二院篇》中的洋文不包括  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲  ",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "efficiency",
+            "engineering",
+            "exciting",
+            "for"
+          ],
+          "solution": 2,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "\"You've met him?\" - Met who?",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "Bill Clinton",
+            "Louis Farrakhan",
+            "Wen Ho Lee",
+            "Li Hongzhi"
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "What did the Elder say in the beginning of the Interview?",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "\"Time flies very fast.\"",
+            "\"I hope to convey through your program my best wishes to American people.\"",
+            "\"We've met before\"",
+            "\"Nice to meet you\""
+          ],
+          "solution": 1,
+          "points": 3
+        },
+        {
+          "type": "single-answer",
+          "statement": "In the Interview, how did Wallace address the Elder?",
+          "graded": true,
+          "choicesType": "radio",
+          "choices": [
+            "\"Mr. Jiang\"",
+            "\"Chairman Jiang\"",
+            "\"Jiang\"",
+            "\"Mr. President\""
+          ],
+          "solution": 1,
+          "points": 3
+        }
+      ]
+    }
+  ]
+}
