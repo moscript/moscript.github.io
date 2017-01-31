@@ -26,7 +26,7 @@ function extend(event) {
    document.body.appendChild(onesec);
 }
 
-var seconds = document.getElementsByClassName("seconds");
+var seconds = document.querySelector(".seconds");
 var 续命 = {
    get 知多少() {
       for (i = 0; i < seconds.length; i++) {
